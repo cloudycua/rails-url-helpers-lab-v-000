@@ -6,6 +6,7 @@ class StudentsController < ApplicationController
   end
 
   def show
+    @student = Student.params9[:id])
   end
 
   private
